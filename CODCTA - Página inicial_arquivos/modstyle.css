@@ -1,0 +1,155 @@
+/*********************
+* Calendar module style
+**********************/
+.table td
+{
+    text-align: center;
+}
+
+.mod_events_monthyear
+{
+    /* border-style:solid;
+    border-color:#000000;
+    border-width:1px 1px 0px 1px;
+    color:rgb(240,240,240); 
+    background-color:rgb(130,130,130); */
+    height:21px ! important;
+    line-height:21px;
+    font-weight:bold;
+    text-align:center !important;
+    cursor:pointer;
+    margin:0px auto 0px auto;
+}
+.mod_events_monthyear td
+{
+    text-align:center!important;
+}
+.mod_events_monthyear a.mod_events_link {
+    color: black;
+    text-decoration:none;
+    font-weight:bold !important;
+}
+
+.mod_events_table
+{
+  /*  border-style:solid;
+    border-color:#000000;
+    border-width:1px 1px 1px 1px;
+    font-family: Arial; */
+    text-align: center;    
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0px auto 0.25em auto;
+}
+.mod_events_td_dayname
+{
+  /*border-bottom: 1px solid #000000;
+    color:rgb(240,240,240);
+    background-color:rgb(130,130,130); */
+    height:15px ! important;
+    line-height:15px;
+    font-weight:bold;
+    text-align:center !important;
+}
+/*
+.mod_events_td_dayname .sunday
+{
+    color:red;
+}
+*/
+.mod_events_td_dayname .saturday
+{
+}
+
+a.mod_events_daylink:link
+{
+    color: black;
+    text-decoration: none;
+}
+a.mod_events_daylink:visited
+{
+    color: black;
+    text-decoration: none;
+}
+a.mod_events_daylink:hover
+{
+    color: #3268ba;
+    text-decoration: none;
+}
+
+.mod_events_td_dayoutofmonth
+{
+    color: gray;
+  /*background-color:#cccccc; */
+    padding:1px !important;
+    width:18px!important;
+}
+
+.mod_events_td_daywithevents
+{
+    background-color: #faa732;
+    background-image: linear-gradient(to bottom, #fbb450, #f89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    padding: 0px !important;
+    width: 18px!important;
+    border: 1px solid #888888;
+}
+.mod_events_td_daynoevents
+{
+    padding:1px !important;
+    width:18px!important;
+}
+
+.mod_events_td_todaynoevents
+{
+    background-color: #006dcc;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    padding:0px !important;
+    width:18px!important;
+}
+
+.mod_events_td_todaynoevents > a.mod_events_daylink
+{
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.mod_events_td_todaywithevents
+{
+    padding:0px !important;
+    border:solid 1px red;
+    width:18px!important;
+}
+
+a.mod_events_link
+{
+    font-weight:normal;
+    text-align:center !important;
+    text-decoration: none;
+}
+a.mod_events_link:link
+{
+    color:black;
+}
+a.mod_events_link:hover
+{
+    color: #3268ba;
+}
+
+
+td.mod_events_latest_first, td.mod_events_latest 
+{
+    background-color:#ffffff;
+    border-style:solid;
+    border-width:0px 0px 1px 8px;
+    padding:0px 0px 2px 2px;
+}

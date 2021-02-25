@@ -1,0 +1,14 @@
+.mod_aniversariantes .titulo {
+	font-weight:bold;
+}
+.mod_aniversariantes .data_aniversario {
+
+}
+
+.mod_aniversariantes .linhas_separadas {
+	display:block;
+	clear:both;
+	padding:left;
+	
+}
+

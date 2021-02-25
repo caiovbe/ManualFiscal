@@ -1,0 +1,23 @@
+.noticias_intraer{
+    font-size: 12px;
+
+}
+
+.data_noticias_intraer{
+    font-size: 11px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1920px) {
+    .bloco_noticias_intraer{
+       height:180px;
+       overflow-y: auto;
+    }
+}
+
+.barra_noticias_intraer{
+    border-top: 3px solid #036;
+   text-align: right;
+}
+
+
+

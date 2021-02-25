@@ -1,0 +1,205 @@
+.contraste .module a {
+color:white!important;
+text-decoration: none;
+
+}
+
+.contraste #content p span{
+	color:  #FFFFFF !important;
+
+}
+
+.contraste a{
+	color: yellow;
+
+}
+
+.contraste .rastro-navegacao a{
+	color: white;
+
+}
+
+.contraste a:focus, .contraste a:hover{
+	color: yellow;
+	text-decoration:underline;
+
+}
+
+.contraste .rastro-navegacao a:focus, .contraste .rastro-navegacao a:hover{
+	color: white;
+	
+
+}
+
+.contraste .nav > li > a:hover, .contraste .nav > li > a:focus {
+    
+    background-color: #000;
+}
+
+.contraste #content.internas h1, .contraste #content.internas .documentFirstHeading {
+    background: none;
+    
+}
+
+.contraste .nn_sliders.accordion>.accordion-group.active>.accordion-heading>a.accordion-toggle {
+background-color: #f8f8f8;
+color: #000;
+}
+.contraste .nn_sliders.accordion > .accordion-group > .accordion-heading > a.accordion-toggle:hover {
+  
+  color: #000;
+   
+}
+
+.contraste .accordion-heading a {
+	color:#fff;
+	font-weight:bold;
+
+}
+
+.contraste #content.internas .page-header > h2 {
+    background: none;
+    border-top: 3px solid rgb(255,255, 255);
+   
+}
+
+.contraste .table-striped tbody > tr:nth-child(2n+1) > td, .contraste .table-striped tbody > tr:nth-child(2n+1) > th {
+    background-color: rgb(0, 0, 0);
+}
+
+.contraste .table-striped tbody > tr:nth-child(2n+1) > td:hover, .contraste .table-striped tbody > tr:nth-child(2n+1) > th:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.contraste .perguntas_mijo{
+	 background-color: rgb(0, 0, 0);
+
+}
+
+.contraste .respostas_mijo{
+	 color: rgb(255, 255, 255);
+
+}
+
+.contraste .botao_enviar_mijo button.btn {
+    background-image: none;
+    background-color: rgb(0,0, 0);
+   
+}
+
+.contraste .barra_noticias2 {
+    border-top: 3px solid rgb(255, 255, 255);
+}
+
+.contraste main div.container #navigation li.active {
+    border-color: white !important;
+}
+
+.contraste .chapeu_acontece_na_fab{
+	color: #FFFFFF;
+}
+
+.contraste .link-video {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -156px rgba(0, 0, 0, 0);
+    padding: 0 0 30px 50px;
+    
+}
+
+.contraste main div.container #navigation li.active a.link-video {
+	 background: url("../img/sprite_contraste.png") no-repeat scroll 0 -156px rgba(0, 0, 0, 0) !important;
+}
+
+
+.contraste .link-radio  {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -500px rgba(0, 0, 0, 0) ;
+    padding: 0 0 20px 50px;
+    display: block;    
+}
+
+
+.contraste main div.container #navigation li.active a.link-radio{
+	background: url("../img/sprite_contraste.png") no-repeat scroll 0 -500px rgba(0, 0, 0, 0) !important;
+
+}
+.contraste .link-fotos {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -300px rgba(0, 0, 0, 0);
+    padding: 0 0 22px 50px;
+}
+
+.contraste main div.container #navigation li.active a.link-fotos{
+	 background: url("../img/sprite_contraste.png") no-repeat scroll 0 -300px rgba(0, 0, 0, 0) !important;
+
+}
+.contraste .link-publicacoes  {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -450px rgba(0, 0, 0, 0);
+    padding: 0 0 22px 50px;
+}
+
+.contraste main div.container #navigation li.active a.link-publicacoes{
+	background: url("../img/sprite_contraste.png") no-repeat scroll 0 -450px rgba(0, 0, 0, 0) !important;
+}
+
+.contraste .link-audios  {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -108px rgba(0, 0, 0, 0);
+    padding: 0 0 22px 50px;
+}
+
+.contraste main div.container #navigation li.active a.link-audios{
+	 background: url("../img/sprite_contraste.png") no-repeat scroll 0 -108px rgba(0, 0, 0, 0)!important;
+}
+.contraste .link-downloads  {
+    background: url("../img/sprite_contraste.png") no-repeat scroll 0 -400px rgba(0, 0, 0, 0);
+    padding: 0 0 22px 50px;
+}
+
+.contraste main div.container #navigation li.active a.link-downloads{
+	background: url("../img/sprite_contraste.png") no-repeat scroll 0 -400px rgba(0, 0, 0, 0) !important;
+}
+
+.contraste footer .footer-atalhos,.contraste footer .footer-logos,
+.contraste header div.sobre{
+border-bottom:0px ;
+}
+
+.contraste header .sobre a,
+.contraste header #logo a,
+.contraste header #portal-siteactions a,.contraste header #language a,
+.contraste header #accessibility a,
+.contraste footer .footer-atalhos a, .contraste footer .footer-logos a,
+.contraste footer a {
+color:#fff}
+
+.contraste header #portal-searchbox .searchButton{
+background: white;
+}
+.contraste header #portal-searchbox input[placeholder],
+ .contraste header #portal-searchbox [placeholder], 
+ .contraste header #portal-searchbox *[placeholder] 
+{
+color:white!important;
+
+}
+
+
+.contraste textarea,input[type="text"]:active,
+.uneditable-input{border:1px solid #FFFFFF;
+}
+
+.contraste .searchButton i.icon-search {
+
+	color:#000 !important;
+} 
+
+.span4 .item p img{
+	width:233px !important;
+	height:156px !important;
+	border-radius:5px;
+
+}
+.blog .span4 .item.column-1,
+.blog .span4 .item.column-2,
+.blog .span4 .item.column-3{
+    height: 500px;
+    overflow-y: auto;
+    margin-bottom: 30px; 
+}
